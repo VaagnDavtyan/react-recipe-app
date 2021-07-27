@@ -1,0 +1,157 @@
+.recipe-list{
+border-right: 1px solid black;
+min-height: 100vh;
+width: 50%;
+}
+
+.recipe-list__add-recipe-btn-container{
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.btn-btn--promary{
+    background: none;
+    background-color: hsl(200, 100%, 50%);
+    /* border: none */
+  /* outline: none; */
+  font-weight: bold;
+    font-size: inherit;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.btn-btn--promary:hover {
+    background-color: hsl(200, 100%, 35%)
+}
+
+.edit-btn {
+    background: none;
+    background-color: hsl(71, 81%, 43%);
+    /* border: none */
+  /* outline: none; */
+  font-weight: bold;
+    font-size: inherit;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+}
+ 
+
+.delete-btn {
+    background: none;
+    background-color: hsl(0, 79%, 56%);
+    /* border: none */
+  /* outline: none; */
+  font-weight: bold;
+    font-size: inherit;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+    margin-left: 5px;
+}
+
+
+.recipe {
+padding: 20px;
+padding-bottom: 40px;
+border: 1px solid black;
+}
+
+.recipe:last-child {
+    border-bottom: none;
+    padding-bottom: 10px;
+}
+
+.recipe__header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 30px;
+}
+
+.recipe__title {
+    margin: 0;
+    font-size: 1.75rem;
+}
+.recipe__row {
+margin-top: 10px;
+
+}
+
+.recipe__label {
+margin-right: 5px;
+}
+
+.recipe__value {
+font-weight: 300;
+}
+
+.ingredient-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    row-gap: 5px;
+    column-gap: 40px;
+    justify-content: flex-start;
+}
+
+
+.recipe-edit{
+    padding: 0px;
+    padding-top: 10px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50%;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.recipe-edit {
+display: flex;
+flex-direction: column;
+
+}
+
+.recipe-edit__details-grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-edit__input {
+    width:60%;
+    margin:10px;
+}
+
+
+.recipe-edit-label {
+    margin-left: 20px;
+}
+
+.btn--primary {
+    background: none;
+    background-color: hsl(200, 100%, 50%);
+    /* border: none */
+  /* outline: none; */
+  font-weight: bold;
+    font-size: inherit;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+    margin: 20px;
+}
+
+.recipe-instructions {
+    width: 60%;
+    margin-left: 10px;
+    height: 100px
+}
+
+.btn-danger {
+    color: red;
+}
